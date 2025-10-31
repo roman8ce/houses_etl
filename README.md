@@ -46,7 +46,7 @@ git clone <repository-url>
 cd houses_etl
 ```
 
-2. При желании создайте файл `.env` с необходимыми переменными окружения:
+2. Создайте файл `.env` с необходимыми переменными окружения
 
 3. Запустите сервисы:
 ```bash
@@ -58,9 +58,9 @@ docker-compose up -d
 | Сервис     | URL                   |
 |------------|-----------------------|
 | Airflow    | http://localhost:8080 |
-| ClickHouse | localhost:8123        |
+| ClickHouse | http://localhost:8123 |
 | MinIO      | http://localhost:9003 |
-| Spark UI   | localhost:9090        |
+| Spark UI   | http://localhost:9090 |
 
 ## Порты сервисов
 
