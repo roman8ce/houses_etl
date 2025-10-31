@@ -1,0 +1,12 @@
+airflow/logs/
+airflow/config/
+airflow/dags/__pycache__/
+airflow/.DS_Store
+clickhouse/default
+clickhouse/system
+data/
+postgres/
+venv/
+s3_storage/
+.env
+.DS_Store
