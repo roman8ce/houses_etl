@@ -4,6 +4,8 @@
 
 ## Обзор архитектуры
 
+<img width="6774" height="1784" alt="houses_etl" src="https://github.com/user-attachments/assets/ffa60191-c6cc-4dc4-9d45-b94acf756067" />
+
 - Сбор данных с сайтов недвижимости через API (Yandex Disk)
 - Обработка данных с помощью Apache Spark
 - Хранение данных в S3-хранилище MinIO
