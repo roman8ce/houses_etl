@@ -48,12 +48,18 @@ cd houses_etl
 
 2. Создайте файл `.env` с необходимыми переменными окружения
 
-3. Запустите сервисы:
+3. Соберите образы Spark и Airflow:
+```bash
+docker build -t jairflow ./airflow
+docker build -t jspark ./spark
+```
+
+4. Запустите сервисы:
 ```bash
 docker-compose up -d
 ```
 
-4. Доступ к сервисам:
+5. Доступ к сервисам:
 
 | Сервис     | URL                   |
 |------------|-----------------------|
