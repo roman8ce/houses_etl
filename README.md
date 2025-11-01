@@ -42,7 +42,7 @@ houses_etl/
 
 1. Клонируйте репозиторий:
 ```bash
-git clone <repository-url>
+git clone [<repository-url>](https://github.com/roman8ce/houses_etl/)
 cd houses_etl
 ```
 
